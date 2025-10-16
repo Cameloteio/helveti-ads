@@ -1,4 +1,15 @@
 {
+  "name": "helveti-ads",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "build:dev": "vite build --mode development",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "@supabase/supabase-js": "^2.75.0",
     "@tanstack/react-query": "^5.90.3",
@@ -10,11 +21,5 @@
     "tailwindcss": "^4.1.14",
     "tailwindcss-animate": "^1.0.7",
     "vite": "^7.1.10"
-  },
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "build:dev": "vite build --mode development",
-    "preview": "vite preview"
   }
 }
